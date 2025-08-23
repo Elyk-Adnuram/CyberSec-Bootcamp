@@ -1,2 +1,2 @@
 # CyberSec-Bootcamp
-HD Cyber Security Bootcampe
+HD Cyber Security Bootcamp
