@@ -1,0 +1,32 @@
+Principles-based governance security framework
+
+Principle 1: Use of non-secure public wifi networks
+To safeguard our organisational and client data as well as mitigate any losses both financial and reputational
+the use of non-secure public wifi networks like those of coffee shops, restaurants, malls or others are prohibited.
+It is the responsibility of each staff member to ensure that only secure private wifi networks like those from their
+personal residence or the wifi network provided as the company premises are used for work related matters.
+
+
+
+Principle 2: Use of personal computers
+The use of personal computers is allowed depending on the nature of a staff member's work however each staff member must ensure that they have adequate Antivirus protection on their device to mitigate cyber attacks and ensure the safety of organisational and staff data. Staff must regularly scan their device for any threats and viruses such as worms, fi leless malware, Trojan horses, rootkits, spyware, bots, and/or ransomware.
+
+
+
+Principle 3: Cyber-security awareness and training
+Each staff member must complete the mandatory cyber security training which educates staff on the various types of cyber attacks such as phishing, smshing, 419 scams etc. This training will be conducted annually due to the ever-changing technology landscape. Each staff member must be aware of their responsibilities in the fight 
+against cyber-security attacks.
+
+
+
+
+Principle 4: Adherence to General Data Protection Regulation (GDPR):
+As an organisation we must align our policies to ensure compliance with the GDPR to ensure that there are no risks related to non-compliance and the penalty fees 
+associated with the non-compliance of GDPR regulations.
+
+
+Principle 5: Non-adherence to this security framework
+The non-adherence to the company security framework can result in employee dismissal or other punitive action should an employee fail to follow the principles covered in this framework.
+
+References
+HyperionDev. (2025). Governance, Compliance, and Roles Task PDF

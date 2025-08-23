@@ -1,0 +1,25 @@
+● What three things should have alerted you to the fact that the email from the bank was not legitimate? 
+1. The spelling errors in the bank email address
+2. The email is not personalized and does not contain any specific information related to me. The bank would 
+   have my name and surname among other details and would not send a completely generic email like this one.
+3. The bank would not send a zip file for a client to use.
+
+● Do you think it is possible your computer is infected with malware based on the given email scenario? Justify your answer. (Hint: Think about a possible mechanism of infection.) 
+Yes it is possible. As the zip file was opened, it may have exposed my computer to an Automatic or activated malware which was activated after opening or extracting the zip folder. 
+
+● Write a paragraph to train fellow employees on phishing, social engineering, and how to avoid malware infection (200–400 words).  
+Phishing occurs when criminals send emails to individuals and attempt to convince them that the emails are from
+legitimate sources such their bank, financial institution, social media account or another service provider that they utilize. To avoid being the victim of a phishing scam, always diligently read emails that claim to be from an organisation and lookout for spelling errors in email address and never send personal data like pin numbers, OTP's or 
+passwords via email. 
+Social engineering can occur when criminals attempt to convince you to perform a certain action by placing you in a heightened emotional state and try to force you to make a decision quickly without thinking about it thoroughly. To 
+avoid falling victim to such a scam, do not agree to something without thoroughly vetting the source from which 
+it is coming from. If something is to good to be true then it generally is, 'to good to be true'.
+Malware is malicious software which cyber criminals use to steal your data and personal information such as email and passwords as well as any other relevant data. Below are some steps to take to avoid unknowingly downloading or installing malware on your device:
+- Do not click on unknown links sent via email or on a website
+- Do not download or open unknown attachments sent via email.
+- Do not visit suspicious or unknown websites
+- Do not insert USB devices into your machine without scanning them for malware
+
+
+References
+HyperionDev. (2025). Cyber Crimes Task PDF

@@ -1,0 +1,63 @@
+● An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were entered.
+
+Create a variable called "max_integer"
+	Set "max_integer" to 0
+Request positive integer from user
+Store the input from user in a array called "user_integers"
+	WHILE "user_integers" does not include zero
+		Continue to request an integer from the user
+		IF input from user is more than "max_integer"
+			Set "max_integer" to value of user input
+        Once the user has entered a zero, stop requesting more integers
+	Print out the "max_integer"
+
+
+● An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase “Hello, World”.
+
+Request a user to enter their name
+	WHILE user input is an empty string or not a valid string
+			Continue to request that the user enters their name
+			IF the user has entered a valid string
+				Store the user input in a variable called "first_name"
+				Print "first_name" + “Hello, World”
+		
+
+● An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+Read integers and store them in an array called "integers"
+	Determine the total of the "integers" array
+		Store the total of the "integers" array in a variable called "sum"
+	Determine the length of the "integers" array
+		Store the length of the "integers" array in a variable called "count"
+	Divide "sum" by "count"
+		Store the result of the above in a variable called "average"
+			Return the "average"
+
+
+● An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy. 
+Read the grocery list
+	IF a grocery item has been bought
+		Store grocery item into "bought" list
+	ELSE store grocery item into "unbought" list
+		Sort the "unbought" list into alphabetical order
+			Print the "unbought" list
+
+● An algorithm for the flowchart
+Create variable called "X"
+	store value of "X" into a variable called "X"
+Create variable called "Y"
+	store value of "Y" into a variable called "Y"
+Create variable called "S"
+	set the value of "S" equal to "X" plus "Y"
+Create a variable called "A"
+	set "A" equal to "S" divided by 2
+Create variable called "P"
+	set "P" equal to "X" multiple by "Y"
+
+Print the variables "S", "A" and "P"
+	
+
+
+
+
+
+	

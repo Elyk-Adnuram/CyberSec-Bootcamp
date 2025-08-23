@@ -1,0 +1,13 @@
+○ What do you think the risk is for individuals when their email addresses and passwords are exposed to the public?
+There is a risk that bad actors can use the personal information of individuals in various types of cyber attacks
+like email spam, phishing attacks as well as advance-fee fraud scams. The personal data can also be sold on the dark web 
+to syndicates who then use the information perform identity theft and attempt to take out credit facilities or loans
+in the name of the cyber crime victim.
+
+○ Name two actions you can take to protect yourself against the risks associated with data breaches.
+- Ensure that your passwords are very strong and regularly update your password. 
+- Enable 2-factor authentication if it is available on a particular website or application.
+
+
+References
+HyperionDev. (2025). Cyber Crimes Task PDF
