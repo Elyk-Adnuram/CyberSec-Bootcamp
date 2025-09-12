@@ -7,12 +7,3 @@ def get_valid_str(user_input_mess):
             continue
         return user_input
 
-# input2 = input("Enter name")
-get_valid_str("Enter your name")
-            
-# while True:
-#     input2 = input("Enter name")
-#     if get_valid_str(input2):
-#         break
-
-
