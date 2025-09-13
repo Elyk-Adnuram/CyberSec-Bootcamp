@@ -84,8 +84,8 @@ while True:
 
 
 
-# Helper functions
 
+# Helper functions
 def get_valid_str(user_input_mess):
     """Ensures input is not an empty string"""
     while True:
@@ -94,7 +94,6 @@ def get_valid_str(user_input_mess):
             print("Please enter valid data. No empty spaces")
             continue
         return user_input
-
 
 
 def reg_user():
@@ -180,7 +179,35 @@ specified""")
                     task_list_to_write.append(";".join(str_attrs))
                 task_file.write("\n".join(task_list_to_write))
             print("Task successfully added.")
+            return
 
+def view_all():
+    for task in task_list:
+        display = (
+            f"Task: \t\t {task['title']}\n"
+            f"Assigned to: \t {task['username']}\n"
+            f"Date Assigned: \t {task['assigned_date'].strftime(DATETIME_STRING_FORMAT)}\n"
+            f"Due Date: \t {task['due_date'].strftime(DATETIME_STRING_FORMAT)}\n"
+            f"Task Description: \n {task['description']}\n"
+        )
+        print(display)
+
+
+def view_mine():
+    """Display the tasks of the logged in user""" 
+    print(f"\n These are {current_user}'s tasks:")  
+    task_id = 0 
+    for task in task_list:        
+        if task['username'] == current_user:
+            display = (
+                f"Task number: \t\t {task_id+1}\n"
+                f"Task: \t\t {task['title']}\n"
+                f"Assigned to: \t {task['username']}\n"
+                f"Date Assigned: \t {task['assigned_date'].strftime(DATETIME_STRING_FORMAT)}\n"
+                f"Due Date: \t {task['due_date'].strftime(DATETIME_STRING_FORMAT)}\n"
+                f"Task Description: \n {task['description']}\n"
+            )
+            print(display)
 
 #====Main Menu Section====
 while True:
@@ -208,30 +235,14 @@ while True:
     # format of Output 2 presented in the task pdf (i.e. includes spacing
     # and labelling)
     elif menu == 'va':
-        for task in task_list:
-            display = (
-                f"Task: \t\t {task['title']}\n"
-                f"Assigned to: \t {task['username']}\n"
-                f"Date Assigned: \t {task['assigned_date'].strftime(DATETIME_STRING_FORMAT)}\n"
-                f"Due Date: \t {task['due_date'].strftime(DATETIME_STRING_FORMAT)}\n"
-                f"Task Description: \n {task['description']}\n"
-            )
-            print(display)
-
+        view_all()        
+        
     # Reads the task from task.txt file and prints to the console in the
     # format of Output 2 presented in the task pdf (i.e. includes spacing
     # and labelling)
     elif menu == 'vm':
-        for task in task_list:
-            if task['username'] == current_user:
-                display = (
-                    f"Task: \t\t {task['title']}\n"
-                    f"Assigned to: \t {task['username']}\n"
-                    f"Date Assigned: \t {task['assigned_date'].strftime(DATETIME_STRING_FORMAT)}\n"
-                    f"Due Date: \t {task['due_date'].strftime(DATETIME_STRING_FORMAT)}\n"
-                    f"Task Description: \n {task['description']}\n"
-                )
-                print(display)
+        view_mine()
+        
 
     # If the user is an admin they can display statistics about number of users
     # and tasks.
