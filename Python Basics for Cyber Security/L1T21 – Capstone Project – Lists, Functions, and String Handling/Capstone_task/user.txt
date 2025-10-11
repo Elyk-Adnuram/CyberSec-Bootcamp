@@ -1,4 +1,4 @@
 admin;password
+tom;tom
 bob;bob
-mike;mike
 toby;toby
